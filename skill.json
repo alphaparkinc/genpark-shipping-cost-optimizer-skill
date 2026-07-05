@@ -1,0 +1,44 @@
+{
+  "name": "shipping-cost-optimizer-skill",
+  "version": "1.0.0",
+  "description": "Analyze packaging dimensions and carrier service pricing structures to recommend the most cost-effective and timely delivery options.",
+  "author": "alphaparkinc",
+  "category": "logistics",
+  "tags": [
+    "logistics",
+    "shipping",
+    "optimizer",
+    "carrier",
+    "cost-saving"
+  ],
+  "inputs": {
+    "weight_lbs": {
+      "type": "number",
+      "description": "Package weight in lbs."
+    },
+    "dimensions": {
+      "type": "object",
+      "description": "Dimensions in inches: {length, width, height}."
+    },
+    "destination_zip": {
+      "type": "string",
+      "description": "Target delivery zip code."
+    }
+  },
+  "outputs": {
+    "best_cost_option": {
+      "type": "object",
+      "description": "Cheapest carrier and rate."
+    },
+    "best_speed_option": {
+      "type": "object",
+      "description": "Fastest carrier and rate."
+    },
+    "potential_savings": {
+      "type": "number",
+      "description": "Savings between worst and best cost option."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}

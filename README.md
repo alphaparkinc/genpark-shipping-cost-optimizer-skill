@@ -1,4 +1,4 @@
-# shipping-cost-optimizer-skill
+# genpark-shipping-cost-optimizer-skill
 
 > **GenPark AI Agent Skill** -- Multi-carrier cost and speed logistics optimizer.
 

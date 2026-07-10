@@ -1,8 +1,8 @@
 {
   "name": "shipping-cost-optimizer-skill",
   "version": "1.0.0",
-  "description": "Analyze packaging dimensions and carrier service pricing structures to recommend the most cost-effective and timely delivery options.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Analyze packaging dimensions and carrier service pricing structures to recommend the most cost-effective and timely delivery options.",
+  "author": "genpark",
   "category": "logistics",
   "tags": [
     "logistics",
